@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #113753;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  margin: 10px;
+  overflow: auto;
+  width: fit-content;
+}
+
+.main-card{
+  width: 250px;
+  margin: 10px;
+  background-color: #d9def9;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.sub-card{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.d-flex{
+  display: flex;
+} 
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.inputDesign{
+  border: none;
+  border-bottom: 1px solid #05b4ee;
+  background-color: transparent;
+  width: 70%;
+}
+
+input:focus{
+  outline: none;
+}
+
+button{
+  cursor: pointer;
+}
+
+.m-15{
+  margin-top: 15px;
+}
+
+.ml-2{
+  margin-left: 2px;
+}
+
+.cardDelete{
+  border: 1px solid red;
+  padding: 2px 8px;
+}
+
+.show-msg{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px;
+  color: white;
+  width: 200px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.show-sucess{
+  background-color: green;
+}
+
+.show-error{
+  background-color: red;
+}
+
+.mainadd-button{
+  margin: 10px;
+  background-color: #05b4ee;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  color: white;
+  border: none;
+}
+
+.hidden-sub-card{
+  background-color: red;
+  height:30px;
+  width: 250px;
+  top: 0;
+  opacity: 0;
+}
